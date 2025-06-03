@@ -4,7 +4,7 @@ on: [pull_request, push, workflow_dispatch]
 
 jobs:
   demo:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     name: demo job
     steps:
       - name: Print hello world
