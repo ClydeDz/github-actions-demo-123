@@ -1,0 +1,13 @@
+name: github actions demo
+
+on: [pull_request, push, workflow_dispatch]
+
+jobs:
+  demo:
+    runs-on: ubuntu
+    name: demo job
+    steps:
+      - name: Print hello world
+        run: echo "hello world"
+      
+      
